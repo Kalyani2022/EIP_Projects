@@ -7,7 +7,7 @@ from os.path import basename
 
 # Sender:
 #   id : kalyaniraybhatta@gmail.com
-#   pwd : Kalyani@1985
+#   pwd : *******
 
 # Receipient:
 #   mailto : indrani.b2022@gmail.com
@@ -17,7 +17,7 @@ from os.path import basename
 
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as connection:
     email_address = 'kal.ray111985@gmail.com'
-    email_password = 'bobexhjeuugaoqtc'
+    email_password = '******'
     connection.login(email_address, email_password)
     connection.sendmail(from_addr= email_address, \
                         to_addrs= 'kalyani_bhattacharjee@rediffmail.com', \
