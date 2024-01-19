@@ -24,7 +24,7 @@ conn = pysql.connect(
     host='localhost',
     port=3306,
     user='root',
-    password='Kalyani2022',
+    password='****',
     database='earthmaildb'
 )
 
@@ -137,7 +137,7 @@ for i in range(l):
         # r"D:\Student_Library\MYSQL\Ebook_pdf\mssql.pdf",
         
 
-    app_password = 'bobexhjeuugaoqtc'
+    app_password = '********'
     server = 'smtp.gmail.com'
     port = 587
 
