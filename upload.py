@@ -11,7 +11,7 @@ import mysql.connector as mysql
 db_config = {
    "host": "localhost",
    "user": "root",
-   "password": "Kalyani2022",
+   "password": "******",
    "database": "earthmaildb",
 }
 
@@ -70,7 +70,7 @@ def send_email_with_attachment(sender_email, sender_password, receiver_email, su
 if __name__ == "__main__":
     # Set your email and SMTP server details here
    sender_email = "kal.ray111985@gmail.com"
-   sender_password = 'bobexhjeuugaoqtc'
+   sender_password = '******'
    receiver_email = "kalyani_bhattacharjee@rediffmail.com"
    subject = "Test Email with Attachment"
    body = "This is a test email with an attachment, which is successfully uploaded into database also ...."
