@@ -19,7 +19,7 @@ app = Flask(__name__)
 db_config = {
     'host' : 'localhost',
     'user' : 'root',
-    'password' : 'Kalyani2022',
+    'password' : '****',
     'database' : 'earthmaildb'
 }
 
@@ -63,7 +63,7 @@ def bilk_mails(data):
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USERNAME'] = 'kal.ray111985@gmail.com'
-app.config['MAIL_PASSWORD'] = 'bobexhjeuugaoqtc'
+app.config['MAIL_PASSWORD'] = '*****'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 mail = Mail(app)
@@ -88,53 +88,7 @@ def send_bulk_email(send_recipients):
 
         time.sleep(14400)       # Delay 4hrs
     return " All Messages, upto 1000 from starting, sent Successfully!"
-# 
-# @app.route("/")
-# def index():
-    # # msg = Message('This is only for test mail..!', sender = 'kal.ray111985@gmail.com', recipients = ['kalyani_bhattacharjee@rediffmail.com', 'kalyanibhattacharjee@outlook.com'])
-    # msg.body = "Hey guys, sending you this email from my Flask app, lmk if it works!!"
-    # mail.send(msg)
-# 
-    # return "Message sent!"
-# 
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
-    # file_path = r"E:\\VScode\\flaskproject\\okay_code_list.txt"
-
-
-
-
-
-    # file_name = os.path.basename(file_path)
-
-
-
-
-
-
-    # try:
-
-        # with app.open_resource(file_path, 'rb') as fp
-        # with open(file_path, 'rb') as fp
-            # part = MIMEBase("application", "octet-stream"
-            # part.set_payload(fp.read())
-
-            # encoders.encode_base64(part
-            # # part.add_header("Content-Disposition",f"attachment; filename {basename(file_path)}")
-            # msg.attach(file_path, "application/text", fp.read())
-            # msg.attach(part, "application/text")
-            # msg.attach(part)
-
-    # except FileNotFoundError:
-        # return "Error : Files not found"
-
-    # mail.send(msg)
-
-
-
